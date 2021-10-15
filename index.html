@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>Damian Rivas - Software Engineer</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/minireset.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/icons.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/animations.css" />
+    <script defer type="text/javascript" src="js/main.js"></script>
+  </head>
+  <body>
+    <div id="wallpaper" class="wallpaper" data-image="images/chicago.jpg"></div>
+    <div class="content">
+      <aside class="side">
+        <figure id="self-portrait" class="picture">
+          <div class="picture-shadow"></div>
+          <img
+            src="images/damian@3x.jpg"
+            srcset="
+              images/damian@1x.jpg 1x,
+              images/damian@2x.jpg 2x,
+              images/damian@3x.jpg 3x
+            "
+            alt="Portrait of Damian Rivas"
+            class="picture-image"
+            id="pictureImage"
+            width="320"
+            height="320"
+          />
+        </figure>
+      </aside>
+      <main class="about">
+        <h1 class="greeting">Hi, I'm <span class="name">Damian</span></h1>
+        <p class="job">Software Engineer</p>
+        <hr class="hr" />
+        <div class="description">
+          <p>
+            I spend my time building beautiful and performant experiences on the
+            web.
+          </p>
+        </div>
+        <div class="contact">
+          <a class="button" href="mailto:damiangrivas1@gmail.com"
+            >Get in touch</a
+          >
+        </div>
+        <ul class="social">
+          <li>
+            <a
+              href="https://github.com/DamianRivas/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="i-github"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/damiangrivas/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="i-linkedin"></i
+            ></a>
+          </li>
+        </ul>
+      </main>
+    </div>
+    <noscript>
+      <style type="text/css">
+        .wallpaper {
+          animation-name: zoomOut;
+        }
+
+        .picture {
+          animation-name: dropIn;
+        }
+      </style>
+    </noscript>
+  </body>
+</html>
